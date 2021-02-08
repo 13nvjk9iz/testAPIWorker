@@ -1,0 +1,15 @@
+2021-02-08T19:33:01.164499+0800 | HONGBAO | __main__; - 抢到礼物立即自动赠送[开启] (火箭、飞机除外)
+2021-02-08T19:33:01.166502+0800 | HONGBAO | __main__; - 红包的记录文件: C:\Users\84415.DESKTOP-9QA18G6\Desktop\temp\dyTool\hongbaoTool\ab\hongbao.log
+2021-02-08T19:33:01.167490+0800 | HONGBAO | __main__; - 格式: unix时间 房间名 房间号 礼物名
+2021-02-08T19:33:01.171479+0800 | INFO | douyu_login.loginByQrcode; - 存在 cookie_douyu.txt，加载中... 
+2021-02-08T19:33:01.173476+0800 | INFO | douyu_login.loginByQrcode; - 验证&&获取csrf...
+2021-02-08T19:33:02.144301+0800 | SUCCESS | douyu_login.loginByQrcode; - 验证&&获取csrf，成功！
+2021-02-08T19:33:02.146295+0800 | INFO | douyu_login.loginByQrcode; - 保存cookie -> cookie_douyu.txt
+2021-02-08T19:33:02.148309+0800 | SUCCESS | douyu_login.loginByQrcode; - 保存cookie -> cookie_douyu.txt 成功!
+2021-02-08T19:33:02.150284+0800 | SUCCESS | __main__; - cookie有效.
+2021-02-08T19:33:02.151281+0800 | INFO | douyu_login.loginByQrcode; - 存在 cookie_douyu.txt，加载中... 
+2021-02-08T19:33:02.152279+0800 | SUCCESS | __main__; - 账号: 万物生长靠太阳66(98986884)
+2021-02-08T19:33:02.876923+0800 | INFO | __main__; - 获取关注列表成功 关注主播数量为25个
+2021-02-08T19:33:02.879895+0800 | INFO | __main__; - 服务健康检查...
+2021-02-08T19:33:02.882901+0800 | INFO | __main__; - 检查内容: ['MainThread', 'loguru-writer-2', 'loguru-writer-3', 'HongBao-qiang', 'HongBao-do'] [<gethongbao.HongBao object at 0x0000025416C5E3C8> False] [<gethongbao.QiangHongBao object at 0x0000025416C26F28> False]
+2021-02-08T19:33:05.372785+0800 | SUCCESS | threading; - 红包监控中..
