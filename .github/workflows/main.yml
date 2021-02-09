@@ -8,7 +8,7 @@ on:
 
 jobs:
   task:
-    name: im fine
+    name: DyTool
     runs-on: windows-latest
 
     steps:
@@ -21,3 +21,17 @@ jobs:
       - name: Run Automation Task
         run: |
           python ./hongbao.py
+
+      - name: Run Task Sleep
+        run: |
+          python ./sleep.py
+
+    # Commits all changed files to the repository
+    - name: Commit to the repo
+      run: |
+        git config --global user.name "temp/dytool"
+        git config --global user.email "temp@email.com"
+        git add .
+        # "echo" returns true so the build succeeds, even if no changed files
+        git commit -m 'Update' || echo
+        git push
