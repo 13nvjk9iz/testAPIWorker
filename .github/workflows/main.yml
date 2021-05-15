@@ -3,7 +3,7 @@ on:
   push:
   
   schedule:
-    - cron:  '0 0,5,10,15,20 * * *'
+    - cron:  '0 0,6,12,16,20 * * *'
 
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
       - name: Commit to the repo
         run: |
           git config --global user.name "dytool"
-          git config --global user.email "shimmeradanTemp02@snapmail.cc"
+          git config --global user.email "13nvjk9iz@btc1588.club"
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m 'Update'
